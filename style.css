@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.container a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto' , sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+main h1{
+    color: aquamarine;
+    margin: 80px;
+    padding: 60px;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: azure;
+}
+a:active{
+    color: yellow;
+}
+
+main h2 {
+    color: green;
+    width: auto;
+    font-family: 'Roboto' , sans-serif;
+    padding: 30px;
+}
