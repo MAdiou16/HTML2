@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Contact</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            padding: 40px;
+        }
+        form{
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 0 10 rgb(0, 0, 0, 0.1);
+        }
+        h2{
+            text-align: center;
+            color: #333;
+        }
+        label{
+            display: block;
+            margin-top: 15px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+    <form>
+        <h2>Contactez-nous</h2>
+        <label for="name">NOM :</label><br>
+        <input type="text" id="name" name="nom" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="message">Méssage</label><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="écrivez votre mésssage ici" required></textarea><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+   </div>
+</body>
+</html>
